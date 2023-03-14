@@ -20,7 +20,7 @@ const ProductsCard = () => {
   return (
     <div>
       <div className="container">
-        <h1>All Products</h1>
+        <h1>Products</h1>
         <div className="row">
           {products.map((product) => (
             <div className="col-3 mt-3">
